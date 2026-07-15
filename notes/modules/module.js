@@ -7,30 +7,13 @@
 // console.log(math.add(5,6));
 // console.log(math.subtract(8,9));
 
-//DESTRUCTURING 
+//DESTRUCTURING
 // const {add,subtract}=require("./math");
 // console.log(add(5,6));
 
 //ESMODULES
 // import { add } from "./math.js";
 // console.log(add(10, 20));
-
-
-
-
-
-
-
-
-// Practice:
-
-// Notes app
-// File reader
-// Todo file storage
-// HTTP Module
-
-
-
 
 //BUILT-IIN MODULES
 //1.PATH MODULE
