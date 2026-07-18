@@ -1,3 +1,5 @@
-const path = require("path");
-const fullPath = path.join("users", "hemanth", "notes.txt");
-console.log(fullPath);
+const fs=require("fs");
+fs.appendFile("notes.txt","\n learning nod.js",(err)=>{
+    if(err) throw err;
+    console.log("content added");
+});
